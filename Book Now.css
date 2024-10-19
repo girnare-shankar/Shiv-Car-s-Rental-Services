@@ -1,0 +1,74 @@
+body {
+    background-color: #fff; /* Softer background color */
+    color: #ecf0f1; /* Light text color for better contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.85); /* Darker header for more contrast */
+    padding: 20px 0; /* Increased padding for a more spacious feel */
+    margin-bottom: 20px;
+}
+.container{
+    font-size: 15px;
+    justify-content: center ;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Deeper shadow for text depth */
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.page-header {
+    font-size: 40px; /* Larger header for emphasis */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: darkslategrey;
+    text-shadow: 2px 2px 4px rgba(197, 197, 70, 0.9); 
+}
+.h2{
+    color: #004085;
+    font-size: 20px;
+    text-align: right; 
+    padding: 5px;
+    margin-right: 10px;   
+}
+.form-group label {
+    color: #34495e; /* Consistent label color */
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff; /* Added text color for button */
+    padding: 10px 20px; /* More padding for a better button size */
+    transition: background-color 0.3s, border-color 0.3s, transform 0.2s; /* Added transform for button effect */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.9); /* Darker footer for consistency */
+    color: #ecf0f1;
+    padding: 20px 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 576px) {
+    .page-header {
+        font-size: 30px; /* Adjusted font size for smaller screens */
+    }
+
+    .btn-primary {
+        width: 100%; /* Full width button on small screens */
+    }
+}

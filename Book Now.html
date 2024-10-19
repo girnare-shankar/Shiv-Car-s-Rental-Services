@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>For Your Safety</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Book Now.css"> <!-- Link to external CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function getdata() {
+            alert("Submitted Successfully");
+        }
+    </script>
+</head>
+<body>
+
+    <header class="bg-primary text-white py-1">
+        <div class="container text-center">
+            <h1>Shiv Car's Rental Services</h1>
+            <p>Your partner for memorable journeys</p>
+        </div>
+    </header>
+    
+    <div class="container my-3 " style= "max-width: 450px; margin: auto">
+        <h2 class="page-header text-center my-4">Personal Information</h2>
+        <form onsubmit="index.html">  <!-- Prevent default form submission -->
+            <legend class="h2">For Safety Purpose</legend>  
+    
+            <div class="form-group">
+                <label for="fname">Enter Full Name:</label>
+                <input type="text" class="form-control" id="fname" placeholder="Your Full Name.." required>
+            </div>
+    
+            <div class="form-group">
+                <label for="mobno">Enter Mob. No.:</label>
+                <input type="tel" class="form-control" id="mobno" placeholder="+91 0000 00 0000" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="gmail">Enter Email:</label>
+                <input type="email" class="form-control" id="gmail" placeholder="abc@gmail.com" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="aadhar">Enter Aadhar No.:</label>
+                <input type="text" class="form-control" id="aadhar" placeholder="0000-0000-0000" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="caadhar">Confirm Aadhar No.:</label>
+                <input type="text" class="form-control" id="caadhar" placeholder="0000-0000-0000" required>
+            </div>
+    
+            <div class="form-group">
+                <label>Select Gender:</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="sgm" value="male" required>
+                    <label class="form-check-label" for="sgm"> Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="sgf" value="female" required>
+                    <label class="form-check-label" for="sgf"> Female</label>
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <label for="addr">Enter Address:</label>
+                <input type="text" class="form-control" id="addr" placeholder="Permanent Address" required>
+            </div>
+    
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form> 
+    </div>
+    
+
+<footer class="text-center bg-dark text-white py-4" style="margin-top: 20px;">
+    <p>&copy; 2024 Shiv Car's Rental Services. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
